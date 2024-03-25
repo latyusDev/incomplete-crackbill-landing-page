@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #0E47A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 6rem 1.5rem 6.03rem;
+    text-transform: capitalize;
+    
+
+   
+
+}
+
+header .logo{
+    width: 180px;
+    height: 80px;
+    /* border: 2px solid red; */
+    
+}
+
+header .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+    
+
+}
+header ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.card1 h1{
+    align-items: center;
+    padding: left 3rem;
+}
+
+
